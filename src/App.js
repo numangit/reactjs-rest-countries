@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App bg-dark">
       <h1 className="display-1 fw-bold text-white"> World Countries</h1>
-      <small>There are {countriesData.length} countries informations available</small>
+      <small className="text-white">There are {countriesData.length} countries informations available</small>
       <Countries country={countriesData}></Countries>
     </div>
   );
